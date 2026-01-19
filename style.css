@@ -1,4 +1,27 @@
-/* Add screen styles below */
+body {
+    margin: 20px;
+    text-align: center; 
+    background-color: cadetblue;
+}
+
+p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+nav a {
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+}
+
+nav a img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
 a.active {
-    font-weight: bold;
+    border-bottom-color: #000000;
 }
